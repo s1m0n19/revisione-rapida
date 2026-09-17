@@ -1,0 +1,15 @@
+esercizio: "Verifica con pesi errati"
+parti:
+  - nome: "Parte 1"
+    punti_totali: 25
+    criteri:
+      - nome: "Criterio A"
+        peso_punti: 10
+        tipo: oggettivo
+        fonte_test: fornito
+      - nome: "Criterio B"
+        peso_punti: 4
+        tipo: llm
+        livelli:
+          - {punti: 4, descrizione: "Ottimo"}
+          - {punti: 0, descrizione: "Insufficiente"}

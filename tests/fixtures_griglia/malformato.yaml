@@ -1,0 +1,5 @@
+esercizio: "Verifica con YAML malformato"
+parti:
+  - nome: "Parte 1"
+  punti_totali: 10
+    criteri: [questo non e' YAML valido

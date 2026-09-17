@@ -1,0 +1,5 @@
+pycparser
+pyyaml
+python-docx
+anthropic
+pytest

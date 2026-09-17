@@ -1,0 +1,8 @@
+esercizio: "Verifica con criterio oggettivo incompleto"
+parti:
+  - nome: "Parte 1"
+    punti_totali: 10
+    criteri:
+      - nome: "Criterio senza fonte_test"
+        peso_punti: 10
+        tipo: oggettivo

@@ -1,0 +1,31 @@
+esercizio: "Verifica 1 - Array e Matrici"
+parti:
+  - nome: "Parte 1 - Giorni di punta"
+    punti_totali: 25
+    criteri:
+      - nome: "Correttezza - individuazione giorni di punta ed eccedenza"
+        peso_punti: 18
+        tipo: oggettivo
+        fonte_test: sostituzione_dati
+        target:
+          tipo_c: "int[7]"
+        soluzione_riferimento: "soluzioni.parte1"
+        dataset:
+          - nome: "tutti sotto soglia"
+            valori: [10, 20, 15, 30, 25, 18, 22]
+          - nome: "caso limite esatto"
+            valori: [40, 40, 41, 39, 40, 45, 40]
+      - nome: "Uso corretto di array e cicli"
+        peso_punti: 4
+        tipo: llm
+        livelli:
+          - {punti: 4, descrizione: "Ciclo unico, indicizzazione corretta"}
+          - {punti: 2, descrizione: "Funziona ma con logica ridondante"}
+          - {punti: 0, descrizione: "Uso scorretto o confuso dell'array"}
+      - nome: "Leggibilita' e nomi delle variabili"
+        peso_punti: 3
+        tipo: llm
+        livelli:
+          - {punti: 3, descrizione: "Nomi chiari, codice ben indentato"}
+          - {punti: 1, descrizione: "Nomi poco chiari ma codice leggibile"}
+          - {punti: 0, descrizione: "Codice disordinato o nomi fuorvianti"}

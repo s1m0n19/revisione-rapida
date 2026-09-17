@@ -1,0 +1,1 @@
+# Testo esercizio di esempio
