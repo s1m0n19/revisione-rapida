@@ -2,4 +2,5 @@ pycparser
 pyyaml
 python-docx
 anthropic
+python-dotenv
 pytest
