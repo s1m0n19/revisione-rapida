@@ -15,6 +15,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from revisione_rapida.grading import valuta_criterio
 from revisione_rapida.griglia import carica_griglia
 

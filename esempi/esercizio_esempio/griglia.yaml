@@ -1,4 +1,4 @@
-esercizio: "Verifica 1 - Array e Matrici"
+esercizio: "Verifica 1 - Parte 1 - Giorni di punta"
 parti:
   - nome: "Parte 1 - Giorni di punta"
     punti_totali: 25
@@ -15,32 +15,19 @@ parti:
             valori: [10, 20, 15, 30, 25, 18, 22]
           - nome: "caso limite esatto"
             valori: [40, 40, 41, 39, 40, 45, 40]
+
       - nome: "Uso corretto di array e cicli"
         peso_punti: 4
         tipo: llm
         livelli:
-          - {punti: 4, descrizione: "Ciclo unico, indicizzazione corretta"}
-          - {punti: 2, descrizione: "Funziona ma con logica ridondante"}
+          - {punti: 4, descrizione: "Ciclo unico, indicizzazione corretta, nessuna ripetizione inutile"}
+          - {punti: 2, descrizione: "Funziona ma con logica ridondante o poco chiara"}
           - {punti: 0, descrizione: "Uso scorretto o confuso dell'array"}
-      - nome: "Leggibilita' e nomi delle variabili"
+
+      - nome: "Leggibilità e commenti"
         peso_punti: 3
         tipo: llm
         livelli:
-          - {punti: 3, descrizione: "Nomi chiari, codice ben indentato"}
-          - {punti: 1, descrizione: "Nomi poco chiari ma codice leggibile"}
-          - {punti: 0, descrizione: "Codice disordinato o nomi fuorvianti"}
-
-  - nome: "Parte 2 - Somma per riga di una matrice"
-    punti_totali: 15
-    criteri:
-      - nome: "Correttezza - calcolo della somma per ogni riga"
-        peso_punti: 10
-        tipo: oggettivo
-        fonte_test: fornito
-      - nome: "Gestione corretta degli indici della matrice"
-        peso_punti: 5
-        tipo: llm
-        livelli:
-          - {punti: 5, descrizione: "Doppio ciclo corretto, nessun accesso fuori limite"}
-          - {punti: 2, descrizione: "Funziona ma con indicizzazione poco chiara"}
-          - {punti: 0, descrizione: "Accessi errati o fuori dai limiti dell'array"}
+          - {punti: 3, descrizione: "Commenti utili, nomi variabili chiari"}
+          - {punti: 1, descrizione: "Commenti minimi o nomi poco chiari"}
+          - {punti: 0, descrizione: "Assenti o fuorvianti"}
